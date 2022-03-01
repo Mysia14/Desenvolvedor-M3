@@ -1,1 +1,55 @@
-@import "reset";
+@import "reset"; 
+
+section {
+    display: block;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  blockquote,
+  q {
+    quotes: none;
+  }
+  
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  body {
+    background: #FFFFFF;
+    height: 1744px;
+    width: 1500px;
+    left: -2385px;
+    top: -648px;
+    position: relative;
+    border-radius: 0px;
+    font-family: "Open Sans";
+  }
+  
+  h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    position: absolute;
+    width: 97px;
+    height: 44px;
+    left: 162px;
+    top: 104px;
+  }
