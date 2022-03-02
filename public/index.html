@@ -1,87 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desenvolvedor M3</title>
-  <link rel="stylesheet" type="text/css" href="/src/scss/main.scss"/>
-  <script src="bundle.js"></script>
- 
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste flexbox e grid</title>
+    <link href="main.css" rel="stylesheet"/>
 </head>
-
-    <h1>Desafio M3</h1>
-<section>
-
 <body>
-    <nav>
-        <svg>
-            <img class="logo" src="../src/img/logo-m3.png" alt="logo-m3">
-
-        </svg>
-    </nav>
-    <h2> Blusas</h2>
-
-    <div id="cores">
-        CORES
-        <ol>
-            <ul>
-                <li>Amarelo</li>
-                <li>Azul</li>
-                <li>Branco</li>
-                <li>Cinza</li>
-                <li>Laranja</li>
-            </ul>
-        </ol>
-    </div>
-
-    <div id="tamanhos">
-        TAMANHOS
-    </div>
-
-    <div id="faixa de preço">
-        FAIXA DE PREÇO
-    </div>
-
-    <table>
-        <tr>
-            <td><img src="../src/img/img_2.png" width="300"></td>
-            <td><img src= "../src/img/img_3.png" width="300"></td>
-            <td><img src= "../src/img/img_4.png" width="300"></td>
-        </tr>
-
-        <tr>
-            <td><img src="../src/img/img_5.png" width="300"></td>
-            <td><img src= "../src/img/img_6.png" width="300"></td>
-            <td><img src= "../src/img/img_7.png" width="300"></td>
-        </tr>
-
-        <tr>
-            <td><img src="../src/img/img_8.png" width="300"></td>
-            <td><img src= "../src/img/img_9.png" width="300"></td>
-            <td><img src= "../src/img/img_10.png" width="300"></td>
-        </tr>
+    <header>
+        <img class="logo" src="./images/logo-m3.png" alt="logo-m3"></svg>  
+    </header>
+    <aside>
+        <section class="section-title">
+            Blusas
+        </section>
+        <section>
+             <div class="colors-list">
+            CORES
+             </div>
+        <div class="sizes">
+            TAMANHOS
+        </div>
+        <div class="price-range">
+            FAIXA DE PREÇO
+        </div>
+        </section>
+       
+    </aside>
+    <section class="categories">
+        <div class="category-item">
+            <img src="./images/img_2.png" alt="img_2">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_3.png" alt="img_3">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_4.png" alt="img_4">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_5.png" alt="img_5">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_6.png" alt="img_6">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_7.png" alt="img_7">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_8.png" alt="img_8">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_9.png" alt="img_9">
+        </div>
+        <div class="category-item">
+            <img src="./images/img_10.png" alt="img_10">
+        </div>
         
-    </table>
 
-
-    <div>
-        <button id="carregar mais">
+    </section>
+    <section>
+        <button class="text">
             CARREGAR MAIS
         </button>
-    </div>
-   
-
-
-</section>
+    </section>
 <footer>
     M3: IMPLANTAÇÃO DE E-COMMERCE VTEX
 </footer>
-
 </body>
-
-
-
 </html>
